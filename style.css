@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+}
+/************* navbar start******************/
+#search{
+	display: none;
+}
+.search-icon{
+	cursor: pointer;
+}
+ nav ul li .search-icon{
+	transition: all 3s;
+}
+ .search-icon:hover {
+	border-bottom: 4px solid black;
+}
+
+nav ul li .search-icon{
+	transition: all 3s;
+}
+ .search-icon:hover {
+	border-bottom: 4px solid black;
+}
+nav ul li .cart{
+	transition: all 3s;
+}
+ .cart:hover {
+	border-bottom: 4px solid black;
+}
+
+nav ul li .Sign-in{
+	transition: all 3s;
+}
+ .Sign-in:hover {
+	border-bottom: 4px solid black;
+}
+
+
+
+nav ul li a{
+	transition: all 3s;
+}
+nav ul li a:hover{
+	border-bottom: 4px solid black;
+}
+/************* navbar end******************/
+
+/************* carousel work start******************/
+.btn{
+	padding: 20px;
+}
+.btn-dark{
+	transition: all 1s;
+}
+.btn-dark:hover{
+	border-bottom: 4px solid white;
+}
+.btn-light{
+	transition: all 1s;
+}
+.btn-light:hover{
+	border-bottom: 4px solid red;
+}
+.btn-info{
+	transition: all 1s;
+}
+.btn-info:hover{
+	border-bottom: 4px solid black;
+}
+/************* carousel work end******************/
+/************* card start******************/
+a{
+	transition: all 3s;
+}
+a:hover i{
+	margin-left: 10px;
+}
+.card img{
+transition: all 1s;
+}
+.card:hover{
+	opacity: .5;
+	cursor: pointer;
+}
+/************* card end******************/
+/************* jumbotron start******************/
+
+.jumbotron{
+height: 80vh;
+}
+.img-jumbo{
+	background: url(images/jumbotron-image.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.right-icon{
+	transition: all 1s;
+	margin-top: 25%;
+}
+.right-icon:hover i{
+	margin-left: 10px;
+}
+.right-icon-1{
+	margin-bottom: 0;
+}
+/************* jumbotron end******************/
+
+/************* footer start******************/
+.footer a{
+color: black;
+}
+/************* footer end******************/
+
+/************* mediaquery start******************/
+@media (max-width:600px){
+	.social-icon{
+		text-align: center;
+	}
+	.search-icon, .cart{
+		padding-left: 40%;
+	}
+	.Sign-in{
+		padding-left: 45%;
+	}
+	.search-icon:hover, .cart:hover, .Sign-in:hover{
+		border: none;
+	}
+	.jumbotron a{
+		margin-top: 40%;
+	}
+}
+/************* mediaquery end******************/
